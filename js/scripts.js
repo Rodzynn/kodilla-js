@@ -21,3 +21,23 @@ triangleArea;
 triangleArea = a * h / 2;
 console.log('Pole trójkąta o podstawie a: ' + a + ' i wysokości h: ' + h + ' wynosi: ' + triangleArea);
 console.log(triangleArea);
+
+// *************** Zadanie 4 - Instrukcje warunkowe w praktyce ***************
+
+var x = prompt("Podaj wartość x"),
+y = prompt("Podaj wartość y");
+
+var value = (x*x) + (2 * x * y) - (y*y);
+console.log(value);
+
+if (value > 0) {
+console.log('Wartość działania jest liczbą dodatnią');
+}
+
+else if (value < 0) {
+console.log('Wartość działania jest liczbą ujemną');
+}
+
+else {
+console.log('Wartość działania wynosi ' + value);
+}
